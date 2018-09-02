@@ -1,0 +1,23 @@
+.mycontainer {
+  display: flex;
+  background: lightskyblue;
+  height: 80px;
+  width:100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mycontainer :nth-child(1) { order: 0; }
+
+.myitem {
+  height: 40px;
+  width: 100px;
+  background: cornflowerblue;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin:10px;
+}
